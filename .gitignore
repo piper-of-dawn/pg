@@ -1,0 +1,7 @@
+Include/    
+Scripts/
+file_dump/
+lib/
+*.txt
+Lib/        
+share/
