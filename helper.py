@@ -40,3 +40,6 @@ def measure_performance(func):
         return runctx('result = func(*args, **kwargs)', globals(), locals())
     return wrapper
 
+
+
+reverse_dictionary = lambda dictionary: {value: key for key, value in dictionary.items()}
